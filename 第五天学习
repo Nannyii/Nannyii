@@ -1,0 +1,16 @@
+enum Sex
+{
+ MALE,
+  FEMALE,
+  SECRET
+};
+//MALE,FEMALE,SECRET-枚举常量
+  int main()
+{
+//  //enum Sex s=FEMALE;
+printf("%d\n",MALE);//0
+  printf("%d\n",FEMALE);//1
+  printf("%d\n",SECRET);//2
+  return 0;
+}
+//今天时间不充裕，只学了枚举常量，没太听懂
