@@ -1,0 +1,44 @@
+#include <stdio.h>
+//int main()
+//{
+//	char arr1[]="abc";//数组
+//	//"abc"--'a''b''c''\0'---'\0'字符串的结束标志
+//	char arr2[]={'a','b','c'，0};
+//	//"abc"--'a''b''c''\0'
+//	printf("%s\n",arr1);//%s打印字符串
+//	printf("%s\n",arr2);
+//	return 0;
+//}
+//int main()
+//{
+//	char arr1[]="abc";
+//	char arr2[]={'a','b','c'};
+//	printf("%d\n",strlen(arr1));//strlen-string length 计算字符串长度
+//	printf("%d\n",strlen(arr2));
+//	//计算字符串长度的时候，计算到'\0'之前，不包含\0，它是标志，如果没有\0那么软件会继续计算，直到找到\0，那么打印出来的就是随机值
+//		return 0;
+//}
+//int main()
+//{
+//	printf("abc\n");//"\n"换行
+//	return 0;
+//}
+//int main()
+//{
+//  //printf("c:\test\32\test.c");
+//  //\t水平制表符类似于Tab键
+//	//printf("%c\n",'a');
+//	printf("%c\n",''');
+//		//如果想打印一个单引号，需要将他转义
+//	 printf("%c\n",'\'')//加一个斜杠，就可以了
+//  return 0;
+//}
+#include <string.h>
+int main()
+{
+	printf("%d\n",strlen ("c:\test\32\test.c"));
+		//\32--32是两个八进制数字
+		//32作为8进制代表的那个十进制数字，作为ASCII码值，对应的字符 
+		//32--十进制 26--作为ASCII码值代表的字符
+	return 0;
+}
