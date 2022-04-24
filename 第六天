@@ -1,0 +1,83 @@
+//int main()
+//{
+//	int input =0;
+//	printf("加入我们\n");
+//	printf("你要好好学习吗？(1/0)>:");
+//    scanf("%d",&input);//1/0
+//	if(input==1)
+//		printf("好offer\n");
+//	else
+//	printf("卖红薯\n");
+//	return 0;
+//}
+//int main()
+//{
+//	int line=0;
+//	printf("加入我们\n");
+//	while(line<20000)
+//	{printf("敲一行代码;%d\n",line);
+//	line++;
+//	}
+//	if(line>=20000)
+//	printf("好offer\n");
+//	
+//	return 0;
+//}
+//int Add(int x,int y)//自定义函数
+//{
+//	int z = x+y;
+//	return z;
+//}
+//int main()
+//{ int num1=10;
+//int num2=20;
+//int a=100;
+//int b=200;
+//int sum1 =0;
+//int sum2 =0;
+//sum1=Add(num1,num2);
+//sum2=Add(a,b);
+//printf("sum1=%d\n",sum1);
+//printf("sum2=%d\n",sum2);
+// return 0;
+//}
+//printf--库函数
+
+//int main()
+//{
+//	/*int a=1;
+//	int b=2;
+//	int c=3;
+//	int d=4;*/
+//	int arr[10]={1,2,3,4,5,6,7,8,9,10};//定义一个存放10个整数数字的数组
+//	int i=0;
+//		while(i<10)
+//		{printf("%d\n",arr[i]);
+//	i++;
+//		}
+//
+//	//printf("%d\n",arr[4]);//打印出来的值是5，下标是n-1，这是用下标的方式访问元素//arr[下标]
+//	//char ch[20];
+//	/*float arr2[5];*/
+//	return 0;
+//}
+//int main()
+//  {
+//  int a=1;//整型1占4个字节-32bit位
+//  //00000000000000000000000000000001
+//  int b=a<<1;
+//  printf("%d\n",b);
+//   printf("%d\n",a);
+//  return 0;
+//}
+int main()
+{
+	int a=3;//011(二进制)
+	int b=5;//101
+	int c=a&b;
+	//011-0是假 1是真
+	//101
+	//与-全一则一 或-有一则一 异或-有一则一 全一则零
+	printf("%d\n",c)
+	return 0;
+}
