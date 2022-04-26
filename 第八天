@@ -1,0 +1,26 @@
+//int main()
+//{
+//	int a=10;
+//int b=++a;//前置++//先++再使用
+//printf("a=%d b=%d\n",a,b);//a=11,b=11
+//return 0;
+//}
+//int main()
+//{
+//int a=10;
+//int b=a--;
+//printf("a=%d b=%d\n",a,b);//a=9,b=10
+//return 0;
+//}
+//int main()
+//{
+//int a=10;
+//int b=--a;
+//printf("a=%d b=%d\n",a,b);//a=9,b=9
+//return 0;
+//}
+int main()
+{
+  int a=(int)3.14;//3.14是double类型，强制转换为整型的话，需要加括号（类型）
+  return 0;
+}
