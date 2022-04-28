@@ -1,0 +1,5 @@
+int main()
+{
+  auto int a=10;//a是局部变量,也是自动变量，auto通常被省略
+  return 0;
+}//
