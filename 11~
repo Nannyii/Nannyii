@@ -1,0 +1,17 @@
+//static修饰函数，改变了函数的链接属性，普通函数具有外部链接属性，其他原文件声明一下就可以使用，用static就使得函数外部链接属性变成内部连接属性
+//声明外部函数
+extern int Add(int,int);
+int main()
+{
+  int a=10;
+  int b=20;
+  int sum=Add(a,b);
+  printf("sum=%d\n,sum");
+  return 0;
+  
+  static int Add(intx,inty)//在外部文件定义,如果加上static就不可以在外部使用了
+  {
+    int z=x+y;
+    return z;
+  }
+}
