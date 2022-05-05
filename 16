@@ -1,0 +1,36 @@
+#include <studio.h>
+  int main()
+{
+  int a=0;
+  int b=3;
+  if(a==1)
+    if(b==2)
+    printf("hehe\n");
+ else//else会和最近的未匹配的if进行匹配
+  printf("haha\n");
+  return 0;
+}
+#include <studio.h>
+  int main()
+{
+  int a=0;
+  int b=3;
+  if(a==1)
+  { 
+    if(b==2)
+    printf("hehe\n");
+ else
+  printf("haha\n");
+  }
+  return 0;
+}
+int main()
+{
+  int num=4;
+  if(num=5)//这里的等号是赋值，不是相等，两个等号是判断相等
+    //可以反着写成if(5=num)，这时会报错，就不会忘记加两个等于号了
+  {
+    printf("呵呵\n");//可以打印出来呵呵
+  }
+  return 0;
+}
