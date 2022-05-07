@@ -1,0 +1,44 @@
+int main()
+{
+  int day=0;
+  scanf("%d",&day);
+  switch(day)
+  {
+case 1;
+case 2; 
+case 3; 
+case 4;
+case 5; 
+      printf("工作日\n");
+      break；
+case 6; 
+case 7; 
+      printf("休息日\n");
+      break；
+default；//case和default没有严格的顺序，建议将default放在后面
+      printf("输入错误\n");
+  }
+return 0;
+}
+
+int main()
+{
+int n=1;
+int m=2;
+  swutch(n)
+  {
+    case 1;m++
+      case 2;n++
+        case 3;
+    {//switch允许嵌套使用
+      case 1;m++
+        case 2;m++;n++;break;
+    }
+   case 4; m++
+     break;
+    default;
+    break;
+    }
+  printf("m=%d,n=%d\n",m,n);
+  return 0;
+}
