@@ -1,0 +1,62 @@
+int main()
+{
+  int i=1;
+  while(i<=10)
+  {
+  printf("%d\n",i);
+  i++;
+  }
+return 0;
+}
+int main()
+{
+  int i=1;
+  while(i<=10)
+  {
+    if(i==5)
+      break;//循环不再继续
+  printf("%d\n",i);//1 2 3 4
+  i++;
+  }
+return 0;
+}
+int main()
+{
+  int i=1;
+  while(i<=10)
+  {
+    if(i==5)
+      continue；//跳出当前循环
+  printf("%d\n",i);//1 2 3 4
+  i++;
+  }
+return 0;
+}
+int main()
+{
+  int i=1;
+  while(i<=10)
+  {
+    i++;
+    if(i==5)
+      continue；//终止循环中本次循环continue后面的循环
+  printf("%d\n",i);//1 2 3 4 6
+  }
+return 0;
+}
+int main()
+{
+  int ch= getchar();//a
+  putchar(ch);//a
+  printf("%c\n",ch);//a
+return 0;
+}
+int main()
+{
+  int ch= 0；
+  while((ch=getchar()）! = EOF)//eof不是输入“EOF”三个字母，意思是end of file
+  {
+  putchar(ch);//输入 CTRL+Z,就会结束程序
+  }
+return 0;
+}
